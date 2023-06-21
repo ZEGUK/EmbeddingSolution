@@ -55,5 +55,7 @@ Embeddings的存储涉及到向量存储与检索。在Azure平台上，支持�
 
 https://jina.ai/news/benchmark-vector-search-databases-with-one-million-data/
 
+repo 中包含两种向量存储-搜索的示例代码：基于Azure Redis Enterprise & RediSearch 和基于Azure Cognitive Search Vector Search Feature.
+
 
 3） Embeddings 向量相似性搜索中的阈值设置
