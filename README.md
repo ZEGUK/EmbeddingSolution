@@ -8,7 +8,7 @@ Embeddings是一种特殊的数据表示形式，可以对一段文本的语义�
 
 ![image](https://github.com/ZEGUK/pdf-form-table-demo-test-script/assets/32155786/a606bd28-3e29-4943-aace-12811e5290e3)
 
-1） Embeddings 向量生成
+## 1） Embeddings 向量生成
 
 如果熟悉机器学习与深度学习，那么对Embeddings一定不陌生。机器学习的内核即为对数据进行高维度的抽象表达，从而更精细地了解数据特征（Feature)。数据的高维度抽象表达会生成特征向量，一个数据的所有特征向量构成向量空间。
 
@@ -47,7 +47,7 @@ Embeddings是一种特殊的数据表示形式，可以对一段文本的语义�
 这一实验结果其实与我们对GPT模型的理解一致：对于在文中有明确表达、以文本理解为主的问题，GPT与其他大语言模型可能差别不明显，但是对于在文档中没有明确文本表示、需要语义理解进行查询匹配时，GPT的表现会优于其他大语言模型。
 
 
-2） Embeddings 存储选择
+## 2） Embeddings 存储选择
 
 Embeddings的存储涉及到向量存储与检索。在Azure平台上，支持向量存储和检索的有：PostgreSQL、Redis Enterprise和Azure Cognitive Search(private preview for vector search feature, https://github.com/Azure/cognitive-search-vector-pr)。
 
@@ -55,7 +55,13 @@ Embeddings的存储涉及到向量存储与检索。在Azure平台上，支持�
 
 https://jina.ai/news/benchmark-vector-search-databases-with-one-million-data/
 
-repo 中包含两种向量存储-搜索的示例代码：基于Azure Redis Enterprise & RediSearch 和基于Azure Cognitive Search Vector Search Feature.
+Repo 中包含两种向量存储-搜索的示例代码：基于Azure Redis Enterprise & RediSearch Module和基于Azure Cognitive Search Vector Search Feature. 下面进行代码解析与示例。
+
+### 2.1） 基于Azure Redis Enterprise & RediSearch Module 文档搜索
+
+<img width="1016" alt="image" src="https://github.com/ZEGUK/EmbeddingSolution/assets/32155786/7386236b-d3a8-416e-8a4e-138ed400bccf">
 
 
-3） Embeddings 向量相似性搜索中的阈值设置
+
+### 2.2）基于Azure Cognitive Search Vector Search Feature
+pip install azure-search-documents==11.4.0a20230509004
