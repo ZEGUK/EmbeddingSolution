@@ -59,7 +59,8 @@ Repo 中包含两种向量存储-搜索的示例代码：基于Azure Redis Enter
 
 ### 2.1） 基于Azure Redis Enterprise & RediSearch Module 文档搜索
 
-<img width="1016" alt="image" src="https://github.com/ZEGUK/EmbeddingSolution/assets/32155786/7386236b-d3a8-416e-8a4e-138ed400bccf">
+<img width="999" alt="image" src="https://github.com/ZEGUK/EmbeddingSolution/assets/32155786/2f46dbcd-6374-4d7d-9e21-55ee1e3a67ab">
+
 
 
 
